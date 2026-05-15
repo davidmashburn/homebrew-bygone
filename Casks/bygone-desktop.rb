@@ -3,7 +3,7 @@
 
 cask "bygone-desktop" do
   version "0.4.0"
-  sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+  sha256 "d8456bf9a79bfcd27661ff704693864626fe0b3573a6fe4f6535ba4eee025b08"
 
   url "https://github.com/davidmashburn/bygone/releases/download/v#{version}/Bygone-#{version}-arm64.dmg"
   name "Bygone"

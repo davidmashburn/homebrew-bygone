@@ -6,7 +6,7 @@ class Bygone < Formula
   desc "Visual diff and file history tool"
   homepage "https://github.com/davidmashburn/bygone"
   url "https://registry.npmjs.org/@davidmashburn/bygone/-/bygone-0.4.0.tgz"
-  sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+  sha256 "bcfb8cd5cfc2790f34485f09800082599bc5c373a4ec472f7ad03b9aa108066a"
   license "MIT"
 
   depends_on "node"
