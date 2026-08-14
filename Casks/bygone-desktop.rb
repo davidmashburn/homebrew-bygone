@@ -2,8 +2,8 @@
 # frozen_string_literal: true
 
 cask "bygone-desktop" do
-  version "0.8.0"
-  sha256 "5058830b32d5813bef9316129d5211f7dc950efbcfc0f55f3e7782e7e8fa3b48"
+  version "0.8.3"
+  sha256 "22d0a585c3267c6b8213e9a31e281d1256ce4e1a6c02c4cd05c56f7841699f01"
 
   url "https://github.com/davidmashburn/bygone/releases/download/v#{version}/Bygone-#{version}-arm64.dmg"
   name "Bygone"
