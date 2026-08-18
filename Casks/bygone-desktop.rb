@@ -2,8 +2,8 @@
 # frozen_string_literal: true
 
 cask "bygone-desktop" do
-  version "0.8.4"
-  sha256 "59e52810e1d4b1f50e0f64f646a006e988af713f03c7b61dd6f36074bad4b74b"
+  version "0.8.5"
+  sha256 "bb4fe7b39b58d9f5df88356d9adae6cdd0e9ad197f42028f606a6c15af77ae26"
 
   url "https://github.com/davidmashburn/bygone/releases/download/v#{version}/Bygone-#{version}-arm64.dmg"
   name "Bygone"
@@ -13,7 +13,7 @@ cask "bygone-desktop" do
   depends_on macos: :big_sur
 
   app "Bygone.app"
-  binary "#{appdir}/Bygone.app/Contents/MacOS/Bygone", target: "bygone"
+  binary "#{appdir}/Bygone.app/Contents/Resources/bygone-launcher.sh", target: "bygone"
   artifact "Bygone.app/Contents/Resources/completions/_bygone",
            target: "#{HOMEBREW_PREFIX}/share/zsh/site-functions/_bygone"
   artifact "Bygone.app/Contents/Resources/completions/bygone",
