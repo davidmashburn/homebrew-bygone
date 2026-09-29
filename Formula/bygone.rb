@@ -5,9 +5,9 @@
 class Bygone < Formula
   desc "Visual diff and file history tool"
   homepage "https://github.com/davidmashburn/bygone"
-  url "https://registry.npmjs.org/@davmash/bygone/-/bygone-0.8.16.tgz"
-  version "0.8.16"
-  sha256 "a527c5e04ffecf581e27b297d1add12729c15f9e09b0be110daac1e885a4b8e9"
+  url "https://registry.npmjs.org/@davmash/bygone/-/bygone-0.9.2.tgz"
+  version "0.9.2"
+  sha256 "ec05056db82daa5a0c8a95c1c3fd3191870a2335e058e09a56390591d709f350"
   license "MIT"
 
   depends_on "node"
