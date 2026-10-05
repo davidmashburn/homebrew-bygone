@@ -7,7 +7,7 @@ class Bygone < Formula
   homepage "https://github.com/davidmashburn/bygone"
   url "https://registry.npmjs.org/@davmash/bygone/-/bygone-0.9.8.tgz"
   version "0.9.8"
-  sha256 "4f6b6e1d6116d261267d0342c0a7ee119986d1b7948b4972167356d24fcccb83"
+  sha256 "1b5c5e95635a6dd247bc705abcbaea6dcc77e99e02ece7ebaa02f11fd8dc9cce"
   license "MIT"
 
   depends_on "node"
